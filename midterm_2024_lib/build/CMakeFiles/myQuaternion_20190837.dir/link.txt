@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libmyQuaternion_20190837.so -o libmyQuaternion_20190837.so CMakeFiles/myQuaternion_20190837.dir/src/myQuaternion_20190837.cpp.o   -L/home/jisang/midterm/midterm_2024_lib/lib  -Wl,-rpath,/home/jisang/midterm/midterm_2024_lib/lib -lmymat 

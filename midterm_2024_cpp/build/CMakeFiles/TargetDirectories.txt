@@ -1,0 +1,3 @@
+/home/jisang/midterm/midterm_2024_cpp/build/CMakeFiles/earth_precession_20190837.dir
+/home/jisang/midterm/midterm_2024_cpp/build/CMakeFiles/edit_cache.dir
+/home/jisang/midterm/midterm_2024_cpp/build/CMakeFiles/rebuild_cache.dir

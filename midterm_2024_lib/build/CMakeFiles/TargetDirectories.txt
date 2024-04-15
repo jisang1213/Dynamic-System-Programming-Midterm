@@ -1,0 +1,4 @@
+/home/jisang/midterm/midterm_2024_lib/build/CMakeFiles/myQuaternion_20190837.dir
+/home/jisang/midterm/midterm_2024_lib/build/CMakeFiles/test.dir
+/home/jisang/midterm/midterm_2024_lib/build/CMakeFiles/edit_cache.dir
+/home/jisang/midterm/midterm_2024_lib/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test.dir/src/test.cpp.o -o test   -L/home/jisang/midterm/midterm_2024_lib/lib  -Wl,-rpath,/home/jisang/midterm/midterm_2024_lib/lib:/home/jisang/midterm/midterm_2024_lib/build -lmymat libmyQuaternion_20190837.so -lmymat 
