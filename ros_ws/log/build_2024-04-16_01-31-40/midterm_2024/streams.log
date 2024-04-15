@@ -1,0 +1,58 @@
+[0.178s] Invoking command in '/home/jisang/midterm/ros_ws/build/midterm_2024': CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/jisang/midterm/ros_ws/build/midterm_2024 -- -j4 -l4
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target sun_torque_generator_20190837[0m
+[0.232s] [ 50%] Built target recorder_20190837
+[0.242s] [ 75%] [32mBuilding CXX object CMakeFiles/sun_torque_generator_20190837.dir/src/sun_torque_generator_20190837.cpp.o[0m
+[3.157s] In file included from [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:12[m[K:
+[3.157s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KMat33::Mat33(const MatBase&)[m[K’:
+[3.157s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:57:50:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[3.157s]    57 |         Mat33(const MatBase& base) : MatBase(base[01;35m[K)[m[K { } // cast to MatBase
+[3.157s]       |                                                  [01;35m[K^[m[K
+[3.157s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[3.157s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[3.157s]       |              [01;36m[K^~~~~~~~[m[K
+[3.157s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec3::Vec3(const MatBase&)[m[K’:
+[3.158s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:71:49:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[3.158s]    71 |         Vec3(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+[3.158s]       |                                                 [01;35m[K^[m[K
+[3.158s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[3.158s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[3.158s]       |              [01;36m[K^~~~~~~~[m[K
+[3.158s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec4::Vec4(const MatBase&)[m[K’:
+[3.158s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:88:45:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[3.158s]    88 |     Vec4(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+[3.158s]       |                                             [01;35m[K^[m[K
+[3.158s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[3.158s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[3.158s]       |              [01;36m[K^~~~~~~~[m[K
+[3.232s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:[m[K In member function ‘[01m[Kvoid Sun_generator::topic_callback(gazebo_msgs::msg::ModelStates_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.232s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:65:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+[3.233s]    65 |         wrench_msg[01;31m[K->[m[Kforce.x = 0.0;
+[3.233s]       |                   [01;31m[K^~[m[K
+[3.233s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:66:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+[3.233s]    66 |         wrench_msg[01;31m[K->[m[Kforce.y = 0.0;
+[3.233s]       |                   [01;31m[K^~[m[K
+[3.234s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:67:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+[3.234s]    67 |         wrench_msg[01;31m[K->[m[Kforce.z = 0.0;
+[3.234s]       |                   [01;31m[K^~[m[K
+[3.234s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:68:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+[3.234s]    68 |         wrench_msg[01;31m[K->[m[Ktorque.x = torque.get_elem(0,0);
+[3.234s]       |                   [01;31m[K^~[m[K
+[3.234s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:69:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+[3.234s]    69 |         wrench_msg[01;31m[K->[m[Ktorque.y = torque.get_elem(1,0);
+[3.234s]       |                   [01;31m[K^~[m[K
+[3.234s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:70:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+[3.235s]    70 |         wrench_msg[01;31m[K->[m[Ktorque.z = torque.get_elem(2,0);
+[3.235s]       |                   [01;31m[K^~[m[K
+[3.235s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:78:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmidterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’
+[3.235s]    78 |         midterm_msg[01;31m[K->[m[Kangular_velocity = twist.angular;
+[3.235s]       |                    [01;31m[K^~[m[K
+[3.235s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:79:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmidterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’
+[3.235s]    79 |         midterm_msg[01;31m[K->[m[Kposition = pose.position;
+[3.235s]       |                    [01;31m[K^~[m[K
+[3.235s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:80:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmidterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’
+[3.235s]    80 |         midterm_msg[01;31m[K->[m[Kquaternion = pose.orientation;
+[3.235s]       |                    [01;31m[K^~[m[K
+[6.620s] gmake[2]: *** [CMakeFiles/sun_torque_generator_20190837.dir/build.make:76: CMakeFiles/sun_torque_generator_20190837.dir/src/sun_torque_generator_20190837.cpp.o] Error 1
+[6.621s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sun_torque_generator_20190837.dir/all] Error 2
+[6.621s] gmake: *** [Makefile:146: all] Error 2
+[6.623s] Invoked command in '/home/jisang/midterm/ros_ws/build/midterm_2024' returned '2': CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/jisang/midterm/ros_ws/build/midterm_2024 -- -j4 -l4

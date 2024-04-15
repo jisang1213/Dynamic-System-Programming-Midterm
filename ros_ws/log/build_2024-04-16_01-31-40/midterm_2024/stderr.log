@@ -1,0 +1,53 @@
+In file included from [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:12[m[K:
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KMat33::Mat33(const MatBase&)[m[K’:
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:57:50:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   57 |         Mat33(const MatBase& base) : MatBase(base[01;35m[K)[m[K { } // cast to MatBase
+      |                                                  [01;35m[K^[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+   26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec3::Vec3(const MatBase&)[m[K’:
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:71:49:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   71 |         Vec3(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+      |                                                 [01;35m[K^[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+   26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec4::Vec4(const MatBase&)[m[K’:
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:88:45:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+   88 |     Vec4(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+      |                                             [01;35m[K^[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+   26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+      |              [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:[m[K In member function ‘[01m[Kvoid Sun_generator::topic_callback(gazebo_msgs::msg::ModelStates_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:65:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+   65 |         wrench_msg[01;31m[K->[m[Kforce.x = 0.0;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:66:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+   66 |         wrench_msg[01;31m[K->[m[Kforce.y = 0.0;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:67:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+   67 |         wrench_msg[01;31m[K->[m[Kforce.z = 0.0;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:68:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+   68 |         wrench_msg[01;31m[K->[m[Ktorque.x = torque.get_elem(0,0);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:69:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+   69 |         wrench_msg[01;31m[K->[m[Ktorque.y = torque.get_elem(1,0);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:70:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Wrench_<std::allocator<void> >[m[K’
+   70 |         wrench_msg[01;31m[K->[m[Ktorque.z = torque.get_elem(2,0);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:78:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmidterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’
+   78 |         midterm_msg[01;31m[K->[m[Kangular_velocity = twist.angular;
+      |                    [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:79:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmidterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’
+   79 |         midterm_msg[01;31m[K->[m[Kposition = pose.position;
+      |                    [01;31m[K^~[m[K
+[01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:80:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmidterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’
+   80 |         midterm_msg[01;31m[K->[m[Kquaternion = pose.orientation;
+      |                    [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/sun_torque_generator_20190837.dir/build.make:76: CMakeFiles/sun_torque_generator_20190837.dir/src/sun_torque_generator_20190837.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sun_torque_generator_20190837.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

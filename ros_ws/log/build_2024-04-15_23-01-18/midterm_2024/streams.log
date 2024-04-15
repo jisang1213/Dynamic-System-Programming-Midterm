@@ -1,0 +1,42 @@
+[0.161s] Invoking command in '/home/jisang/midterm/ros_ws/build/midterm_2024': AMENT_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/jisang/midterm/ros_ws/build/midterm_2024 -- -j4 -l4
+[0.197s] [35m[1mConsolidate compiler generated dependencies of target recorder_20190837[0m
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target sun_torque_generator_20190837[0m
+[0.214s] [ 50%] [32mBuilding CXX object CMakeFiles/sun_torque_generator_20190837.dir/src/sun_torque_generator_20190837.cpp.o[0m
+[0.214s] [ 75%] Built target recorder_20190837
+[2.932s] In file included from [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:12[m[K:
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KMat33::Mat33(const MatBase&)[m[K’:
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:57:50:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[2.933s]    57 |         Mat33(const MatBase& base) : MatBase(base[01;35m[K)[m[K { } // cast to MatBase
+[2.933s]       |                                                  [01;35m[K^[m[K
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[2.933s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[2.933s]       |              [01;36m[K^~~~~~~~[m[K
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec3::Vec3(const MatBase&)[m[K’:
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:71:49:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[2.933s]    71 |         Vec3(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+[2.933s]       |                                                 [01;35m[K^[m[K
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[2.933s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[2.933s]       |              [01;36m[K^~~~~~~~[m[K
+[2.933s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec4::Vec4(const MatBase&)[m[K’:
+[2.934s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:88:45:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[2.934s]    88 |     Vec4(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+[2.934s]       |                                             [01;35m[K^[m[K
+[2.934s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[2.934s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[2.934s]       |              [01;36m[K^~~~~~~~[m[K
+[2.998s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:[m[K In constructor ‘[01m[KSun_generator::Sun_generator(const char*)[m[K’:
+[2.998s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:38:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMyNode[m[K’ has not been declared
+[2.998s]    38 |             std::bind(&[01;31m[KMyNode[m[K::topic_callback, this, std::placeholders::_1)
+[2.998s]       |                        [01;31m[K^~~~~~[m[K
+[3.001s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:[m[K In member function ‘[01m[Kvoid Sun_generator::topic_callback(gazebo_msgs::msg::ModelStates_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.001s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:65:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct midterm_2024_msg::msg::Midterm_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmessage[m[K’
+[3.002s]    65 |         recording_msg.[01;31m[Kmessage[m[K = "Received ModelStates message";
+[3.002s]       |                       [01;31m[K^~~~~~~[m[K
+[3.002s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:45:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.002s]    45 |     void topic_callback([01;35m[Kconst gazebo_msgs::msg::ModelStates::SharedPtr msg[m[K) const
+[3.002s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.092s] gmake[2]: *** [CMakeFiles/sun_torque_generator_20190837.dir/build.make:76: CMakeFiles/sun_torque_generator_20190837.dir/src/sun_torque_generator_20190837.cpp.o] Error 1
+[4.092s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sun_torque_generator_20190837.dir/all] Error 2
+[4.092s] gmake: *** [Makefile:146: all] Error 2
+[4.095s] Invoked command in '/home/jisang/midterm/ros_ws/build/midterm_2024' returned '2': AMENT_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/jisang/midterm/ros_ws/build/midterm_2024 -- -j4 -l4

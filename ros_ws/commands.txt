@@ -1,0 +1,20 @@
+ros2 launch midterm_2024 midterm_launch.py student_number:=20190837
+
+
+- Use the ROS2 service to set the Earth model with its global coordinates at the center (x, y, z: 0, 0, 1) and tilted by an inclination of 23.5 degrees (w, x, y, z: 0.97904547, 0, -0.20364175, 0).
+
+$   ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "earth", pose: {position: {x: 0.0, y: 0.0, z: 1.0}, orientation: {x: 0.0, y: -0.20364175, z: 0.0, w: 0.97904547}}}}'
+
+
+- Use the ROS2 service to rotate the Earth model in the local coordinate system with an angular velocity of (0, 0, 10). (Hint: reference_frame) 
+
+$    ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "earth", twist: {angular: {x: -5.8835, y: 0.0, z: -4.3115}}, reference_frame: 'earth'}}'
+
+ros2 service call /demo/set_entity_state gazebo_msgs/SetEntityState "{state: {name: 'earth', twist: {angular: {x: -5.8835, y: 0.0, z: -4.3115}}}}"
+
+
+E.G.
+
+ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "coin", pose: {position: {x: 2.6472, y: 0.0, z: 0.5}, orientation: {x: 0.0, y: 1.0, z: 0.0, w: 0.0}}, twist: {linear: {x: 0.0, y: 2.0, z: 0.0}, angular: {x: -1.0, y: 0.0, z: 0.0}}}}'
+
+ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "coin", pose: {position: {x: 2.6472, y: 0.0, z: 0.3536}, orientation: {x: 0.0, y: -0.9238795, z: 0.0, w: 0.3826834}}, twist: {linear: {x: 0.0, y: 4.1603, z: 0.0}, angular: {x: -5.8835, y: 0.0, z: -4.3115}}}}'

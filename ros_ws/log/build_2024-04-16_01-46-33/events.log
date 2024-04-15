@@ -1,0 +1,420 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (midterm_2024_msg) JobQueued: {'identifier': 'midterm_2024_msg', 'dependencies': OrderedDict()}
+[0.000402] (midterm_2024) JobQueued: {'identifier': 'midterm_2024', 'dependencies': OrderedDict([('midterm_2024_msg', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg')])}
+[0.000436] (midterm_2024_msg) JobStarted: {'identifier': 'midterm_2024_msg'}
+[0.073008] (-) TimerEvent: {}
+[0.116938] (midterm_2024_msg) JobProgress: {'identifier': 'midterm_2024_msg', 'progress': 'cmake'}
+[0.118855] (midterm_2024_msg) JobProgress: {'identifier': 'midterm_2024_msg', 'progress': 'build'}
+[0.118955] (midterm_2024_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jisang/midterm/ros_ws/build/midterm_2024_msg', '--', '-j4', '-l4'], 'cwd': '/home/jisang/midterm/ros_ws/build/midterm_2024_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('GIT_ASKPASS', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/midterm'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1e9f39d6-3595-41cb-bf97-fb011a499d8b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/1192_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '740b2c36-a7af-4c82-9b6d-efefce54ff81'), ('DISPLAY', '172.30.48.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e1cb3a4702.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024:/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jisang/midterm/ros_ws/build/midterm_2024_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024:/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.173158] (-) TimerEvent: {}
+[0.219784] (midterm_2024_msg) StdoutLine: {'line': b'[  3%] Built target midterm_2024_msg__cpp\n'}
+[0.258493] (midterm_2024_msg) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_midterm_2024_msg\n'}
+[0.273275] (-) TimerEvent: {}
+[0.306559] (midterm_2024_msg) StdoutLine: {'line': b'[ 12%] Built target midterm_2024_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.339507] (midterm_2024_msg) StdoutLine: {'line': b'[ 22%] Built target midterm_2024_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.373426] (-) TimerEvent: {}
+[0.473905] (-) TimerEvent: {}
+[0.574346] (-) TimerEvent: {}
+[0.674713] (-) TimerEvent: {}
+[0.719602] (midterm_2024_msg) StdoutLine: {'line': b'running egg_info\n'}
+[0.720591] (midterm_2024_msg) StdoutLine: {'line': b'writing midterm_2024_msg.egg-info/PKG-INFO\n'}
+[0.721052] (midterm_2024_msg) StdoutLine: {'line': b'writing dependency_links to midterm_2024_msg.egg-info/dependency_links.txt\n'}
+[0.721512] (midterm_2024_msg) StdoutLine: {'line': b'writing top-level names to midterm_2024_msg.egg-info/top_level.txt\n'}
+[0.726424] (midterm_2024_msg) StdoutLine: {'line': b"reading manifest file 'midterm_2024_msg.egg-info/SOURCES.txt'\n"}
+[0.727170] (midterm_2024_msg) StdoutLine: {'line': b"writing manifest file 'midterm_2024_msg.egg-info/SOURCES.txt'\n"}
+[0.774880] (-) TimerEvent: {}
+[0.785230] (midterm_2024_msg) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_midterm_2024_msg_egg\n'}
+[0.828654] (midterm_2024_msg) StdoutLine: {'line': b'[ 32%] Built target midterm_2024_msg__rosidl_typesupport_cpp\n'}
+[0.871786] (midterm_2024_msg) StdoutLine: {'line': b'[ 41%] Built target midterm_2024_msg__rosidl_generator_c\n'}
+[0.874971] (-) TimerEvent: {}
+[0.905923] (midterm_2024_msg) StdoutLine: {'line': b'[ 51%] Built target midterm_2024_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.930743] (midterm_2024_msg) StdoutLine: {'line': b'[ 61%] Built target midterm_2024_msg__rosidl_typesupport_c\n'}
+[0.960022] (midterm_2024_msg) StdoutLine: {'line': b'[ 70%] Built target midterm_2024_msg__rosidl_typesupport_introspection_c\n'}
+[0.975182] (-) TimerEvent: {}
+[0.986593] (midterm_2024_msg) StdoutLine: {'line': b'[ 70%] Built target midterm_2024_msg\n'}
+[1.022794] (midterm_2024_msg) StdoutLine: {'line': b'[ 74%] Built target midterm_2024_msg__py\n'}
+[1.047642] (midterm_2024_msg) StdoutLine: {'line': b'[ 80%] Built target midterm_2024_msg__rosidl_generator_py\n'}
+[1.075298] (-) TimerEvent: {}
+[1.079121] (midterm_2024_msg) StdoutLine: {'line': b'[ 87%] Built target midterm_2024_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.114973] (midterm_2024_msg) StdoutLine: {'line': b'[ 93%] Built target midterm_2024_msg__rosidl_typesupport_c__pyext\n'}
+[1.143833] (midterm_2024_msg) StdoutLine: {'line': b'[100%] Built target midterm_2024_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[1.173195] (midterm_2024_msg) CommandEnded: {'returncode': 0}
+[1.175447] (-) TimerEvent: {}
+[1.261836] (midterm_2024_msg) JobProgress: {'identifier': 'midterm_2024_msg', 'progress': 'install'}
+[1.279297] (midterm_2024_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jisang/midterm/ros_ws/build/midterm_2024_msg'], 'cwd': '/home/jisang/midterm/ros_ws/build/midterm_2024_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('GIT_ASKPASS', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/midterm'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1e9f39d6-3595-41cb-bf97-fb011a499d8b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/1192_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '740b2c36-a7af-4c82-9b6d-efefce54ff81'), ('DISPLAY', '172.30.48.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e1cb3a4702.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024:/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jisang/midterm/ros_ws/build/midterm_2024_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024:/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.279949] (-) TimerEvent: {}
+[1.293378] (midterm_2024_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.294647] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/ament_index/resource_index/rosidl_interfaces/midterm_2024_msg\n'}
+[1.297067] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg\n'}
+[1.297493] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg\n'}
+[1.297579] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/midterm.h\n'}
+[1.303398] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.303619] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail\n'}
+[1.303728] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__type_support.h\n'}
+[1.303804] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__functions.h\n'}
+[1.303870] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__struct.h\n'}
+[1.303943] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__functions.c\n'}
+[1.304006] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/library_path.sh\n'}
+[1.304163] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/library_path.dsv\n'}
+[1.304229] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_generator_c.so\n'}
+[1.304381] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg\n'}
+[1.304451] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg\n'}
+[1.304513] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.304575] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail\n'}
+[1.304638] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__rosidl_typesupport_fastrtps_c.h\n'}
+[1.304699] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[1.304792] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg\n'}
+[1.304860] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg\n'}
+[1.304922] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.304993] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail\n'}
+[1.305056] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__rosidl_typesupport_introspection_c.h\n'}
+[1.305186] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__type_support.c\n'}
+[1.305252] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_typesupport_introspection_c.so\n'}
+[1.305315] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_typesupport_c.so\n'}
+[1.305376] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg\n'}
+[1.305438] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg\n'}
+[1.305498] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/midterm.hpp\n'}
+[1.305626] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail\n'}
+[1.305699] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__builder.hpp\n'}
+[1.305765] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__struct.hpp\n'}
+[1.305880] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__traits.hpp\n'}
+[1.305951] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg\n'}
+[1.306014] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg\n'}
+[1.306079] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.306143] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail\n'}
+[1.306232] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.306306] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/dds_fastrtps\n'}
+[1.306371] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.306473] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg\n'}
+[1.306551] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg\n'}
+[1.306617] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail\n'}
+[1.306741] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.306832] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/include/midterm_2024_msg/midterm_2024_msg/msg/detail/midterm__type_support.cpp\n'}
+[1.306900] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[1.306963] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_typesupport_cpp.so\n'}
+[1.307027] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/pythonpath.sh\n'}
+[1.307269] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/pythonpath.dsv\n'}
+[1.307336] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg-0.0.0-py3.10.egg-info\n'}
+[1.307402] (midterm_2024_msg) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.307476] (midterm_2024_msg) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.307546] (midterm_2024_msg) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.307608] (midterm_2024_msg) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.307671] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg\n'}
+[1.307732] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/midterm_2024_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.307795] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/midterm_2024_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.307857] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/libmidterm_2024_msg__rosidl_generator_py.so\n'}
+[1.307918] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/_midterm_2024_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.307981] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/msg\n'}
+[1.308043] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/msg/_midterm.py\n'}
+[1.308107] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/msg/_midterm_s.c\n'}
+[1.308171] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/msg/__init__.py\n'}
+[1.308234] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/_midterm_2024_msg_s.ep.rosidl_typesupport_c.c\n'}
+[1.308296] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/_midterm_2024_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.308360] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/midterm_2024_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.308424] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/__init__.py\n'}
+[1.343453] (midterm_2024_msg) StdoutLine: {'line': b"Listing '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg'...\n"}
+[1.343749] (midterm_2024_msg) StdoutLine: {'line': b"Listing '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/msg'...\n"}
+[1.358640] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/midterm_2024_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.359482] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/midterm_2024_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.359675] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages/midterm_2024_msg/midterm_2024_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.359751] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib/libmidterm_2024_msg__rosidl_generator_py.so\n'}
+[1.360893] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/msg/Midterm.idl\n'}
+[1.361113] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/msg/Midterm.msg\n'}
+[1.361186] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/ament_index/resource_index/package_run_dependencies/midterm_2024_msg\n'}
+[1.361253] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/ament_index/resource_index/parent_prefix_path/midterm_2024_msg\n'}
+[1.362057] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/ament_prefix_path.sh\n'}
+[1.362211] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/ament_prefix_path.dsv\n'}
+[1.362286] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/path.sh\n'}
+[1.362357] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/environment/path.dsv\n'}
+[1.366710] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/local_setup.bash\n'}
+[1.385292] (-) TimerEvent: {}
+[1.385419] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/local_setup.sh\n'}
+[1.385519] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/local_setup.zsh\n'}
+[1.385592] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/local_setup.dsv\n'}
+[1.385658] (midterm_2024_msg) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/package.dsv\n'}
+[1.385723] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/ament_index/resource_index/packages/midterm_2024_msg\n'}
+[1.385823] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_generator_cExport.cmake\n'}
+[1.385892] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.385957] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.386048] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.386117] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.386190] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.386252] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_cExport.cmake\n'}
+[1.386314] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.386381] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_generator_cppExport.cmake\n'}
+[1.386443] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.386503] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.386564] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.386625] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.386685] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_cppExport.cmake\n'}
+[1.386744] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.386837] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_generator_pyExport.cmake\n'}
+[1.386901] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/export_midterm_2024_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.386963] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[1.387025] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.387086] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.387155] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.387218] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.387280] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.387341] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.387407] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msgConfig.cmake\n'}
+[1.387467] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/cmake/midterm_2024_msgConfig-version.cmake\n'}
+[1.387527] (midterm_2024_msg) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024_msg/share/midterm_2024_msg/package.xml\n'}
+[1.387589] (midterm_2024_msg) CommandEnded: {'returncode': 0}
+[1.485431] (-) TimerEvent: {}
+[1.585812] (-) TimerEvent: {}
+[1.686301] (-) TimerEvent: {}
+[1.786686] (-) TimerEvent: {}
+[1.791055] (midterm_2024_msg) JobEnded: {'identifier': 'midterm_2024_msg', 'rc': 0}
+[1.792057] (midterm_2024) JobStarted: {'identifier': 'midterm_2024'}
+[1.886828] (-) TimerEvent: {}
+[1.987394] (-) TimerEvent: {}
+[2.090791] (midterm_2024) JobProgress: {'identifier': 'midterm_2024', 'progress': 'cmake'}
+[2.091410] (-) TimerEvent: {}
+[2.091627] (midterm_2024) JobProgress: {'identifier': 'midterm_2024', 'progress': 'build'}
+[2.091666] (midterm_2024) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jisang/midterm/ros_ws/build/midterm_2024', '--', '-j4', '-l4'], 'cwd': '/home/jisang/midterm/ros_ws/build/midterm_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('GIT_ASKPASS', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/midterm'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1e9f39d6-3595-41cb-bf97-fb011a499d8b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/1192_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '740b2c36-a7af-4c82-9b6d-efefce54ff81'), ('DISPLAY', '172.30.48.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e1cb3a4702.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024:/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jisang/midterm/ros_ws/build/midterm_2024'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[2.172540] (midterm_2024) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sun_torque_generator_20190837\x1b[0m\n'}
+[2.191591] (-) TimerEvent: {}
+[2.196125] (midterm_2024) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/sun_torque_generator_20190837.dir/src/sun_torque_generator_20190837.cpp.o\x1b[0m\n'}
+[2.291862] (-) TimerEvent: {}
+[2.395301] (-) TimerEvent: {}
+[2.499525] (-) TimerEvent: {}
+[2.600036] (-) TimerEvent: {}
+[2.700529] (-) TimerEvent: {}
+[2.805357] (-) TimerEvent: {}
+[2.905881] (-) TimerEvent: {}
+[3.006510] (-) TimerEvent: {}
+[3.107175] (-) TimerEvent: {}
+[3.207520] (-) TimerEvent: {}
+[3.307867] (-) TimerEvent: {}
+[3.408698] (-) TimerEvent: {}
+[3.509151] (-) TimerEvent: {}
+[3.609587] (-) TimerEvent: {}
+[3.710221] (-) TimerEvent: {}
+[3.810668] (-) TimerEvent: {}
+[3.912267] (-) TimerEvent: {}
+[4.012727] (-) TimerEvent: {}
+[4.113229] (-) TimerEvent: {}
+[4.213707] (-) TimerEvent: {}
+[4.314187] (-) TimerEvent: {}
+[4.414527] (-) TimerEvent: {}
+[4.514864] (-) TimerEvent: {}
+[4.615216] (-) TimerEvent: {}
+[4.715519] (-) TimerEvent: {}
+[4.815851] (-) TimerEvent: {}
+[4.916180] (-) TimerEvent: {}
+[5.016516] (-) TimerEvent: {}
+[5.116833] (-) TimerEvent: {}
+[5.217230] (-) TimerEvent: {}
+[5.318084] (-) TimerEvent: {}
+[5.418526] (-) TimerEvent: {}
+[5.519017] (-) TimerEvent: {}
+[5.619518] (-) TimerEvent: {}
+[5.720008] (-) TimerEvent: {}
+[5.820561] (-) TimerEvent: {}
+[5.921000] (-) TimerEvent: {}
+[6.021334] (-) TimerEvent: {}
+[6.121678] (-) TimerEvent: {}
+[6.222041] (-) TimerEvent: {}
+[6.322420] (-) TimerEvent: {}
+[6.422867] (-) TimerEvent: {}
+[6.523362] (-) TimerEvent: {}
+[6.623901] (-) TimerEvent: {}
+[6.697089] (midterm_2024) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/sun_torque_generator_20190837.cpp:12\x1b[m\x1b[K:\n'}
+[6.697316] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMat33::Mat33(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.697393] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:57:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.697465] (midterm_2024) StderrLine: {'line': b'   57 |         Mat33(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K { } // cast to MatBase\n'}
+[6.697529] (midterm_2024) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.697695] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.697778] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[6.697842] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.698377] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVec3::Vec3(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.698545] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:71:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.698622] (midterm_2024) StderrLine: {'line': b'   71 |         Vec3(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K {  } // cast to MatBase\n'}
+[6.698685] (midterm_2024) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.698833] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.698913] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[6.698975] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.699350] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVec4::Vec4(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.699452] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:88:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr MatBase::MatBase(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.699532] (midterm_2024) StderrLine: {'line': b'   88 |     Vec4(const MatBase& base) : MatBase(base\x1b[01;35m\x1b[K)\x1b[m\x1b[K {  } // cast to MatBase\n'}
+[6.699597] (midterm_2024) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.699775] (midterm_2024) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[KMatBase\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kvoid MatBase::operator=(const MatBase&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.699855] (midterm_2024) StderrLine: {'line': b'   26 |         void \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K= (const MatBase &mat); // assignment\n'}
+[6.699919] (midterm_2024) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.724132] (-) TimerEvent: {}
+[6.826340] (-) TimerEvent: {}
+[6.926870] (-) TimerEvent: {}
+[7.028421] (-) TimerEvent: {}
+[7.128790] (-) TimerEvent: {}
+[7.229116] (-) TimerEvent: {}
+[7.329442] (-) TimerEvent: {}
+[7.429790] (-) TimerEvent: {}
+[7.530301] (-) TimerEvent: {}
+[7.630790] (-) TimerEvent: {}
+[7.731284] (-) TimerEvent: {}
+[7.831934] (-) TimerEvent: {}
+[7.932560] (-) TimerEvent: {}
+[8.033068] (-) TimerEvent: {}
+[8.133584] (-) TimerEvent: {}
+[8.234155] (-) TimerEvent: {}
+[8.334721] (-) TimerEvent: {}
+[8.435214] (-) TimerEvent: {}
+[8.535693] (-) TimerEvent: {}
+[8.636144] (-) TimerEvent: {}
+[8.737863] (-) TimerEvent: {}
+[8.838329] (-) TimerEvent: {}
+[8.940260] (-) TimerEvent: {}
+[9.040929] (-) TimerEvent: {}
+[9.141397] (-) TimerEvent: {}
+[9.246172] (-) TimerEvent: {}
+[9.346878] (-) TimerEvent: {}
+[9.447360] (-) TimerEvent: {}
+[9.547805] (-) TimerEvent: {}
+[9.648274] (-) TimerEvent: {}
+[9.748772] (-) TimerEvent: {}
+[9.849265] (-) TimerEvent: {}
+[9.949909] (-) TimerEvent: {}
+[10.050317] (-) TimerEvent: {}
+[10.150674] (-) TimerEvent: {}
+[10.251114] (-) TimerEvent: {}
+[10.351628] (-) TimerEvent: {}
+[10.452088] (-) TimerEvent: {}
+[10.554141] (-) TimerEvent: {}
+[10.654806] (-) TimerEvent: {}
+[10.756580] (-) TimerEvent: {}
+[10.859405] (-) TimerEvent: {}
+[10.960001] (-) TimerEvent: {}
+[11.060629] (-) TimerEvent: {}
+[11.161456] (-) TimerEvent: {}
+[11.261940] (-) TimerEvent: {}
+[11.362565] (-) TimerEvent: {}
+[11.463642] (-) TimerEvent: {}
+[11.564136] (-) TimerEvent: {}
+[11.669720] (-) TimerEvent: {}
+[11.770427] (-) TimerEvent: {}
+[11.870953] (-) TimerEvent: {}
+[11.971422] (-) TimerEvent: {}
+[12.072575] (-) TimerEvent: {}
+[12.172993] (-) TimerEvent: {}
+[12.273310] (-) TimerEvent: {}
+[12.373665] (-) TimerEvent: {}
+[12.474463] (-) TimerEvent: {}
+[12.574943] (-) TimerEvent: {}
+[12.675530] (-) TimerEvent: {}
+[12.776024] (-) TimerEvent: {}
+[12.876465] (-) TimerEvent: {}
+[12.977056] (-) TimerEvent: {}
+[13.077749] (-) TimerEvent: {}
+[13.178230] (-) TimerEvent: {}
+[13.278675] (-) TimerEvent: {}
+[13.378990] (-) TimerEvent: {}
+[13.479340] (-) TimerEvent: {}
+[13.579750] (-) TimerEvent: {}
+[13.680256] (-) TimerEvent: {}
+[13.780743] (-) TimerEvent: {}
+[13.881260] (-) TimerEvent: {}
+[13.981740] (-) TimerEvent: {}
+[14.082191] (-) TimerEvent: {}
+[14.182589] (-) TimerEvent: {}
+[14.283052] (-) TimerEvent: {}
+[14.383548] (-) TimerEvent: {}
+[14.484201] (-) TimerEvent: {}
+[14.584706] (-) TimerEvent: {}
+[14.685190] (-) TimerEvent: {}
+[14.785679] (-) TimerEvent: {}
+[14.886805] (-) TimerEvent: {}
+[14.987149] (-) TimerEvent: {}
+[15.087490] (-) TimerEvent: {}
+[15.187873] (-) TimerEvent: {}
+[15.288393] (-) TimerEvent: {}
+[15.388932] (-) TimerEvent: {}
+[15.489380] (-) TimerEvent: {}
+[15.589877] (-) TimerEvent: {}
+[15.690391] (-) TimerEvent: {}
+[15.790901] (-) TimerEvent: {}
+[15.891304] (-) TimerEvent: {}
+[15.991787] (-) TimerEvent: {}
+[16.092094] (-) TimerEvent: {}
+[16.192413] (-) TimerEvent: {}
+[16.292823] (-) TimerEvent: {}
+[16.393310] (-) TimerEvent: {}
+[16.493827] (-) TimerEvent: {}
+[16.594543] (-) TimerEvent: {}
+[16.697266] (-) TimerEvent: {}
+[16.797997] (-) TimerEvent: {}
+[16.898628] (-) TimerEvent: {}
+[16.999103] (-) TimerEvent: {}
+[17.099654] (-) TimerEvent: {}
+[17.200203] (-) TimerEvent: {}
+[17.300793] (-) TimerEvent: {}
+[17.401315] (-) TimerEvent: {}
+[17.503033] (-) TimerEvent: {}
+[17.606099] (-) TimerEvent: {}
+[17.706720] (-) TimerEvent: {}
+[17.807261] (-) TimerEvent: {}
+[17.907728] (-) TimerEvent: {}
+[18.008153] (-) TimerEvent: {}
+[18.108619] (-) TimerEvent: {}
+[18.209273] (-) TimerEvent: {}
+[18.309776] (-) TimerEvent: {}
+[18.363437] (midterm_2024) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable sun_torque_generator_20190837\x1b[0m\n'}
+[18.410973] (-) TimerEvent: {}
+[18.512388] (-) TimerEvent: {}
+[18.613915] (-) TimerEvent: {}
+[18.717532] (-) TimerEvent: {}
+[18.818237] (-) TimerEvent: {}
+[18.918705] (-) TimerEvent: {}
+[19.019158] (-) TimerEvent: {}
+[19.119727] (-) TimerEvent: {}
+[19.220084] (-) TimerEvent: {}
+[19.320388] (-) TimerEvent: {}
+[19.420791] (-) TimerEvent: {}
+[19.521222] (-) TimerEvent: {}
+[19.546585] (midterm_2024) StdoutLine: {'line': b'[ 50%] Built target sun_torque_generator_20190837\n'}
+[19.588637] (midterm_2024) StdoutLine: {'line': b'[100%] Built target recorder_20190837\n'}
+[19.601337] (midterm_2024) CommandEnded: {'returncode': 0}
+[19.621374] (-) TimerEvent: {}
+[19.651793] (midterm_2024) JobProgress: {'identifier': 'midterm_2024', 'progress': 'install'}
+[19.651886] (midterm_2024) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jisang/midterm/ros_ws/build/midterm_2024'], 'cwd': '/home/jisang/midterm/ros_ws/build/midterm_2024', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jisang'), ('GIT_ASKPASS', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jisang'), ('OLDPWD', '/home/jisang/midterm'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-1e9f39d6-3595-41cb-bf97-fb011a499d8b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jisang'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/1192_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jisang/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/user26/Anaconda3:/mnt/c/Users/user26/Anaconda3/Library/mingw-w64/bin:/mnt/c/Users/user26/Anaconda3/Library/usr/bin:/mnt/c/Users/user26/Anaconda3/Library/bin:/mnt/c/Users/user26/Anaconda3/Scripts:/mnt/c/Users/user26/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user26/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '740b2c36-a7af-4c82-9b6d-efefce54ff81'), ('DISPLAY', '172.30.48.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e1cb3a4702.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024:/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jisang/midterm/ros_ws/build/midterm_2024'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[19.660009] (midterm_2024) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.660516] (midterm_2024) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024/lib/midterm_2024/sun_torque_generator_20190837\n'}
+[19.664052] (midterm_2024) StdoutLine: {'line': b'-- Set runtime path of "/home/jisang/midterm/ros_ws/install/midterm_2024/lib/midterm_2024/sun_torque_generator_20190837" to "/home/jisang/midterm/ros_ws/src/midterm_2024/lib"\n'}
+[19.664630] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/lib/midterm_2024/recorder_20190837\n'}
+[19.664823] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/launch\n'}
+[19.664977] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/launch/midterm_launch.py\n'}
+[19.665068] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc\n'}
+[19.665182] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/earth_dae.dae\n'}
+[19.665259] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/urdf\n'}
+[19.665322] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/urdf/earth.urdf\n'}
+[19.665396] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/urdf/earth.sdf\n'}
+[19.665458] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/worlds\n'}
+[19.665518] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/worlds/midterm.world\n'}
+[19.665578] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/include\n'}
+[19.665638] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/include/myQuaternion.hpp\n'}
+[19.665698] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/include/mymat.hpp\n'}
+[19.665757] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/lib\n'}
+[19.666017] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/lib/libmyQuaternion_20190837.so\n'}
+[19.666116] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/lib/libmymat.so\n'}
+[19.666194] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/models\n'}
+[19.666269] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/models/earth_dae.dae\n'}
+[19.666343] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/ament_index/resource_index/package_run_dependencies/midterm_2024\n'}
+[19.666419] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/ament_index/resource_index/parent_prefix_path/midterm_2024\n'}
+[19.666495] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/ament_prefix_path.sh\n'}
+[19.666555] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/ament_prefix_path.dsv\n'}
+[19.666617] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/path.sh\n'}
+[19.666678] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/path.dsv\n'}
+[19.666737] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.bash\n'}
+[19.666797] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.sh\n'}
+[19.666858] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.zsh\n'}
+[19.666938] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.dsv\n'}
+[19.667013] (midterm_2024) StdoutLine: {'line': b'-- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/package.dsv\n'}
+[19.667087] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/ament_index/resource_index/packages/midterm_2024\n'}
+[19.667497] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/cmake/midterm_2024Config.cmake\n'}
+[19.667608] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/cmake/midterm_2024Config-version.cmake\n'}
+[19.667681] (midterm_2024) StdoutLine: {'line': b'-- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/package.xml\n'}
+[19.675230] (midterm_2024) CommandEnded: {'returncode': 0}
+[19.721482] (-) TimerEvent: {}
+[19.821945] (-) TimerEvent: {}
+[19.910315] (midterm_2024) JobEnded: {'identifier': 'midterm_2024', 'rc': 0}
+[19.912678] (-) EventReactorShutdown: {}
