@@ -84,12 +84,6 @@ private:
         // Publish the Midterm message
         pub_recordings->publish(midterm_msg);
 
-        Quaternion Q(0.97904547, 0, -0.20364175, 0);
-        Vec3 w_b(0,0,10);
-        Vec3 w_w = vecRotatedByQuat(w_b, Q);
-
-        printf("Angular Velocity = {x : %f, y : %f, z: %f}\n",  w_w.get_elem(0,0), w_w.get_elem(1,0), w_w.get_elem(2,0));
-
     }
     // TODO: you can set your subscriber and publishers
     rclcpp::Publisher<geometry_msgs::msg::Wrench>::SharedPtr pub_torque;

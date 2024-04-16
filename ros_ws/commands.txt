@@ -8,8 +8,10 @@ $   ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{stat
 
 - Use the ROS2 service to rotate the Earth model in the local coordinate system with an angular velocity of (0, 0, 10). (Hint: reference_frame) 
 
-$    ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "earth", twist: {angular: {x: -5.8835, y: 0.0, z: -4.3115}}, reference_frame: 'earth'}}'
+$    ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "earth", twist: {angular: {x: 0.0, y: 0.0, z: 10}}, reference_frame: 'earth'}}'
 
+
+//For setting in world frame:
 ros2 service call /demo/set_entity_state gazebo_msgs/SetEntityState "{state: {name: 'earth', twist: {angular: {x: -5.8835, y: 0.0, z: -4.3115}}}}"
 
 
@@ -18,3 +20,9 @@ E.G.
 ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "coin", pose: {position: {x: 2.6472, y: 0.0, z: 0.5}, orientation: {x: 0.0, y: 1.0, z: 0.0, w: 0.0}}, twist: {linear: {x: 0.0, y: 2.0, z: 0.0}, angular: {x: -1.0, y: 0.0, z: 0.0}}}}'
 
 ros2 service call /demo/set_entity_state 'gazebo_msgs/SetEntityState' '{state: {name: "coin", pose: {position: {x: 2.6472, y: 0.0, z: 0.3536}, orientation: {x: 0.0, y: -0.9238795, z: 0.0, w: 0.3826834}}, twist: {linear: {x: 0.0, y: 4.1603, z: 0.0}, angular: {x: -5.8835, y: 0.0, z: -4.3115}}}}'
+
+
+Colcon build hanging:
+
+export COLCON_EXTENSION_BLOCKLIST=colcon_core.event_handler.desktop_notification
+

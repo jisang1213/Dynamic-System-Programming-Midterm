@@ -29,7 +29,12 @@ public:
         // TODO: you can set your subscriber for you published topic in another node
         // TODO: msg topic should be "Midterm/recordings"
 
-        
+        // Create a subscription to the topic "Midterm/recordings"
+        sub = create_subscription<midterm_2024_msg::msg::Midterm>(
+            "Midterm/recordings",
+            10, // Queue size
+            std::bind(&Recorder::topic_callback, this, std::placeholders::_1) // Callback function
+        );
 
         //////////////// TODO End ////////////////
 
@@ -44,13 +49,13 @@ private:
         // q_results_gazebo.csv contains earth quaternion in global coordinate system:: w,x,y,z
 
         if(p_results.is_open()){
-            p_results << '\n';
+            p_results << msg->position.x << ", " << msg->position.y << ", " << msg->position.z << ", "<< '\n';
         }
         if(w_results.is_open()){
-            w_results << '\n';
+            w_results << msg->angular_velocity.x << ", " << msg->angular_velocity.y  << ", " << msg->angular_velocity.z << ", " << '\n';
         }
         if(q_results.is_open()){
-            q_results << '\n';
+            q_results << msg->quaternion.w << ", " << msg->quaternion.x << ", " << msg->quaternion.y << ", " << msg->quaternion.z << ", " << '\n';
         }
         //////////////// TODO End ////////////////
         cnt = cnt + 1;
@@ -65,7 +70,7 @@ private:
     }
     //////////////// TODO ////////////////
     // TODO: you can set your subscriber for you published topic in another node
-
+    rclcpp::Subscription<midterm_2024_msg::msg::Midterm>::SharedPtr sub;
     //////////////// TODO End ////////////////
     int cnt;
     std::ofstream p_results;
@@ -76,7 +81,7 @@ private:
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<Recorder>("recorder_20230001"));
+    rclcpp::spin(std::make_shared<Recorder>("recorder_20190837"));
     rclcpp::shutdown();
 
     return 0;

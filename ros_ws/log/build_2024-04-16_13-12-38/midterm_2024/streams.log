@@ -1,0 +1,67 @@
+[0.205s] Invoking command in '/home/jisang/midterm/ros_ws/build/midterm_2024': CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/jisang/midterm/ros_ws/build/midterm_2024 -- -j4 -l4
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target recorder_20190837[0m
+[0.272s] [ 50%] Built target sun_torque_generator_20190837
+[0.285s] [ 75%] [32mBuilding CXX object CMakeFiles/recorder_20190837.dir/src/recorder_20190837.cpp.o[0m
+[3.383s] In file included from [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/src/recorder_20190837.cpp:11[m[K:
+[3.383s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KMat33::Mat33(const MatBase&)[m[K’:
+[3.383s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:57:50:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[3.383s]    57 |         Mat33(const MatBase& base) : MatBase(base[01;35m[K)[m[K { } // cast to MatBase
+[3.383s]       |                                                  [01;35m[K^[m[K
+[3.384s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[3.384s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[3.384s]       |              [01;36m[K^~~~~~~~[m[K
+[3.384s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec3::Vec3(const MatBase&)[m[K’:
+[3.384s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:71:49:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[3.384s]    71 |         Vec3(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+[3.384s]       |                                                 [01;35m[K^[m[K
+[3.384s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[3.384s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[3.384s]       |              [01;36m[K^~~~~~~~[m[K
+[3.387s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:[m[K In constructor ‘[01m[KVec4::Vec4(const MatBase&)[m[K’:
+[3.387s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:88:45:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr MatBase::MatBase(const MatBase&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[3.387s]    88 |     Vec4(const MatBase& base) : MatBase(base[01;35m[K)[m[K {  } // cast to MatBase
+[3.387s]       |                                             [01;35m[K^[m[K
+[3.387s] [01m[K/home/jisang/midterm/ros_ws/src/midterm_2024/include/mymat.hpp:26:14:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KMatBase[m[K’ has user-provided ‘[01m[Kvoid MatBase::operator=(const MatBase&)[m[K’
+[3.388s]    26 |         void [01;36m[Koperator[m[K= (const MatBase &mat); // assignment
+[3.388s]       |              [01;36m[K^~~~~~~~[m[K
+[11.572s] [100%] [32m[1mLinking CXX executable recorder_20190837[0m
+[12.299s] [100%] Built target recorder_20190837
+[12.310s] Invoked command in '/home/jisang/midterm/ros_ws/build/midterm_2024' returned '0': CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/jisang/midterm/ros_ws/build/midterm_2024 -- -j4 -l4
+[12.340s] Invoking command in '/home/jisang/midterm/ros_ws/build/midterm_2024': CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/jisang/midterm/ros_ws/build/midterm_2024
+[12.346s] -- Install configuration: ""
+[12.346s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/lib/midterm_2024/sun_torque_generator_20190837
+[12.347s] -- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024/lib/midterm_2024/recorder_20190837
+[12.351s] -- Set runtime path of "/home/jisang/midterm/ros_ws/install/midterm_2024/lib/midterm_2024/recorder_20190837" to "/home/jisang/midterm/ros_ws/src/midterm_2024/lib"
+[12.351s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/launch
+[12.351s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/launch/midterm_launch.py
+[12.351s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc
+[12.351s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/earth_dae.dae
+[12.351s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/urdf
+[12.351s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/urdf/earth.urdf
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/rsc/urdf/earth.sdf
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/worlds
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/worlds/midterm.world
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/include
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/include/myQuaternion.hpp
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/include/mymat.hpp
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/lib
+[12.352s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/lib/libmyQuaternion_20190837.so
+[12.355s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/lib/libmymat.so
+[12.356s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/models
+[12.357s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/models/earth_dae.dae
+[12.357s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/ament_index/resource_index/package_run_dependencies/midterm_2024
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/ament_index/resource_index/parent_prefix_path/midterm_2024
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/ament_prefix_path.sh
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/ament_prefix_path.dsv
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/path.sh
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/environment/path.dsv
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.bash
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.sh
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.zsh
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/local_setup.dsv
+[12.358s] -- Installing: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/package.dsv
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/ament_index/resource_index/packages/midterm_2024
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/cmake/midterm_2024Config.cmake
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/cmake/midterm_2024Config-version.cmake
+[12.358s] -- Up-to-date: /home/jisang/midterm/ros_ws/install/midterm_2024/share/midterm_2024/package.xml
+[12.359s] Invoked command in '/home/jisang/midterm/ros_ws/build/midterm_2024' returned '0': CMAKE_PREFIX_PATH=/home/jisang/midterm/ros_ws/install/midterm_2024_msg:/home/jisang/midterm/ros_ws/install/midterm_2024:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/jisang/midterm/ros_ws/build/midterm_2024

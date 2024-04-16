@@ -64,11 +64,11 @@ int main()
         {
             // record the orientation (gcs)
 
-            q_results << i_sim * h << ", " << Q.w() << ", " << Q.x() << ", " << Q.y() << ", " << Q.z() << ", " << "\n";
+            q_results << Q.w() << ", " << Q.x() << ", " << Q.y() << ", " << Q.z() << ", " << "\n";
 
             // record the angular velocity (gcs)
 
-            w_results << i_sim * h << ", " << w_gcs.get_elem(0,0) << ", " << w_gcs.get_elem(1,0) << ", " << w_gcs.get_elem(2,0) << ", " << "\n";
+            w_results << w_gcs.get_elem(0,0) << ", " << w_gcs.get_elem(1,0) << ", " << w_gcs.get_elem(2,0) << ", " << "\n";
 
         }
         //////////////// TODO end ////////////////
